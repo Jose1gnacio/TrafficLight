@@ -10,3 +10,96 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-color: rgb(119, 255, 255);
+}
+.traficLight{
+    border: solid 2px black;
+    border-radius: 11px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 11px;
+    width: 111px;
+    height: 275px;
+}
+.traficLight2{
+    border: solid 2px black;
+    border-radius: 11px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 11px;
+    width: 111px;
+    height: 363px;
+}
+.redOn {
+    border-radius: 50px;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 11px;
+    width: 77px;
+    height: 77px;
+}
+.redOff {
+    border-radius: 50px;
+    background-color: rgb(141, 0, 0);
+    margin: 0 auto;
+    margin-top: 11px;
+    width: 77px;
+    height: 77px;
+}
+.yellowOn {
+    border-radius: 50px;
+    background-color: yellow;
+    margin: 0 auto;
+    margin-top: 11px;
+    width: 77px;
+    height: 77px;
+}
+.yellowOff {    
+    border-radius: 50px;
+    background-color: rgb(213, 213, 0);
+    margin: 0 auto;
+    margin-top: 11px;
+    width: 77px;
+    height: 77px;
+}
+.greenOn {
+    
+    border-radius: 50px;
+    background-color: rgb(0, 197, 0);
+    margin: 0 auto;
+    margin-top: 11px;
+    width: 77px;
+    height: 77px;
+}
+.greenOf {    
+    border-radius: 50px;
+    background-color: rgb(1, 74, 1);
+    margin: 0 auto;
+    margin-top: 11px;
+    width: 77px;
+    height: 77px;
+}
+.blueOn {
+    border-radius: 50px;
+    background-color: blue;
+    margin: 0 auto;
+    margin-top: 11px;
+    width: 77px;
+    height: 77px;
+}
+.blueOff {
+    border-radius: 50px;
+    background-color: rgb(0, 0, 87);
+    margin: 0 auto;
+    margin-top: 11px;
+    width: 77px;
+    height: 77px;
+}
+
+.button {    
+    margin: 0 auto;
+    margin-left: 593px;
+    margin-top: 14px;  
+    
+}
