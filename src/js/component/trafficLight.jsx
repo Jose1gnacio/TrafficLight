@@ -8,11 +8,19 @@ const TrafficLight = () => {
 	
 	return (
 		<>
-			<div className={"traficLight" + (blueLight === "active" ? " traficLight2" : "")}>
+			<div className={"traficLight"}>
 				<div className={(colorLight === "redOn" ? "  redOn" : "redOff")} onClick={() => setColorLight("redOn")}  ></div>
 				<div className={(colorLight === "yellowOn" ? " yellowOn" :"yellowOff")} onClick={() => setColorLight("yellowOn")}></div>
-				<div className={(colorLight === "greenOn" ? " greenOn" : "greenOf")} onClick={() => setColorLight("greenOn")}></div>
-				<div className={(blueLight === "active" ? "blueOff" : "") + (colorLight === "blueOn" ? " blueOn" : " blueOf") } onClick={() => setColorLight("blueOn")}></div>				
+				<div className={(colorLight === "greenOn" ? " greenOn" : "greenOff")} onClick={() => setColorLight("greenOn")}></div>
+				
+				{
+					blueLight == "active" &&
+					(
+						<div className={(colorLight === "blueOn" ? " blueOn" : "blueOff")} onClick={() => setColorLight("blueOn")}></div>
+					)
+
+				}
+				{/* <div className={(blueLight === "active" ? "blueOff" : "") + (colorLight === "blueOn" ? " blueOn" : " blueOf") + (blueLight === "active2" ? "blueOn" : "") } onClick={() => {setColorLight("blueOn"); setBlueLight("active2")} }></div> */}				
 			</div>
 			<div className="button">
 				<button type="button" onClick={() => setBlueLight("active")} className="btn btn-warning"><strong>Add Light</strong></button>
